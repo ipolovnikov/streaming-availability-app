@@ -10,7 +10,7 @@ export function GridItem({ show }: { show: Show }) {
           alt={show.title}
           width={240}
           height={340}
-          className="rounded object-cover"
+          className="aspect-[3/4] w-full rounded object-cover"
         />
       </div>
       <div className="min-h-12">
