@@ -13,6 +13,12 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: "hsl(var(--primary))",
       },
+      blur: {
+        xs: "2px",
+      },
+      backgroundImage: {
+        hero: "url('/bg-hero.jpg')",
+      },
     },
   },
   plugins: [],

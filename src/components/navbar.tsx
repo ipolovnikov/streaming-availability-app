@@ -6,7 +6,7 @@ import { navbarLinks } from "@/configs/nav-config"
 
 export function Navbar() {
   return (
-    <div className="fixed top-0 z-10 w-full bg-background/80 backdrop-blur">
+    <div className="fixed top-0 z-30 w-full bg-background/80 backdrop-blur">
       <Container className="flex h-12 items-center justify-between">
         <div className="flex items-center font-bold text-primary">
           <Clapperboard className="size-5" />
