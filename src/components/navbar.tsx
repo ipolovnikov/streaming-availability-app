@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Clapperboard } from "lucide-react"
 
 import { Container } from "./container"
+import { ThemeSwitch } from "./theme-switch"
 import { navbarLinks } from "@/configs/nav-config"
 
 export function Navbar() {
@@ -18,6 +19,7 @@ export function Navbar() {
               {name}
             </Link>
           ))}
+          <ThemeSwitch />
         </nav>
       </Container>
     </div>
